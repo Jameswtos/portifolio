@@ -3,7 +3,6 @@ body {
     
     padding: 0;
 }
-
 .container {
     max-width: 600px;
     margin: 20px auto;
@@ -12,19 +11,15 @@ body {
     border-radius: 8px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
-
 h1, h2 {
     margin-bottom: 10px;
 }
-
 p {
     margin-bottom: 5px;
 }
-
 .section {
     margin-bottom: 20px;
 }
-
 .edu, .exp {
     margin-left: 20px;
 }
