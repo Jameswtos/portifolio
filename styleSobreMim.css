@@ -14,7 +14,6 @@ header {
 main {
     display: flex;
     padding: 20px;
-  
 }
 section {
     margin-bottom: 20px;
@@ -30,15 +29,13 @@ p {
 }
 button{
     margin-left: 10px;
-    
 }
 img{
     max-width: 250px;
-    display: block; /* Isso é importante para garantir que a margem automática funcione corretamente */
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     border-radius: 8px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);  
 }
