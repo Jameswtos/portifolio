@@ -1,44 +1,36 @@
 body{
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(253, 253, 253), rgb(255, 255, 255));
     margin: 0;
-    /* text-align: center; */ /* Removido para evitar centralização de todo o conteúdo */
-    gap: 100px;
 }
 #navbar{
     display: flex;
-    justify-content: flex-end; /* Alinha o menu à direita */
+    justify-content: flex-end; 
     background-color: #007bff;
-    padding: 10px; /* Adicionado espaçamento interno */
+    padding: 10px;
     padding-top: 25px;
     color: #ffffff;
-  
 }
 nav{
     display: flex;
-    
 }
 a{
     font-size: 10px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* margin-left: 50px; */ /* Removido para evitar margens fixas */
     padding-top: 5px;
-    
 }
 p {
-    font-size: 16px; /* Defina o tamanho da fonte desejado */
-    color: rgb(109, 80, 80);
+    font-size: 16px;
+    color: rgb(109, 80, 81);
+    margin-bottom: 10px;
+    margin-right: 100px;
 }
 h2{
-    
     margin-top: 1px;
     margin-left: 9px;
     margin-right: auto;
 }
-/*Nav*/
-/**/
 footer{   
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -47,21 +39,24 @@ footer{
     text-align: center;
     padding: 10px;
 }
-/*  */
-/* Adicione estas regras CSS */
 .container {
     display: flex;
 }
-
 .imagem {
-    flex: 1; /* Faz com que a seção "imagem" ocupe todo o espaço disponível */
+    display: flex;
+    flex: 1;
 }
-
 .conteudo{
-    flex: 2; /* Faz com que a seção "conteúdo" ocupe o dobro do espaço disponível em relação à seção "imagem" */
-    padding-top: 10px;
-    
+    display: flex;
+    flex: 2;
+    padding-top: 30px;   
 }
 .redes a svg {
-    fill: rgb(255, 255, 255); /* Altere 'red' para a cor desejada */
+    fill: rgb(255, 255, 255);
 }
+.imagem{
+    display: flex;
+    padding-top: 0%;
+}
+
+
